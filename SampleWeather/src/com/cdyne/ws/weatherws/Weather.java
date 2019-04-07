@@ -29,6 +29,7 @@ public class Weather
     static {
         URL url = null;
         WebServiceException e = null;
+        
         try {
             url = new URL("file:/C:/Users/Naveen/Desktop/attachments/Weather.wsdl");
         } catch (MalformedURLException ex) {
