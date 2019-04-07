@@ -36,7 +36,10 @@ public class Weather
         }
         WEATHER_WSDL_LOCATION = url;
         WEATHER_EXCEPTION = e;
+        
+        System.out.println("fhsjkfh");
     }
+    
 
     public Weather() {
         super(__getWsdlLocation(), WEATHER_QNAME);
